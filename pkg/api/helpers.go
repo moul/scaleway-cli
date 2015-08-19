@@ -293,6 +293,16 @@ func CreateServer(api *ScalewayAPI, imageName string, name string, bootscript st
 
 	server.DynamicIPRequired = &dynamicIPRequired
 
+	// optional parameters
+	commercialType := os.Getenv("SCALEWAY_COMMERCIAL_TYPE")
+	arch := os.Getenv("ARCH")
+	if commercialType != "" {
+		server.CommercialType = &commercialType
+	}
+	if arch != "" {
+		server.Arch = &arch
+	}
+
 	server.Tags = []string{}
 	if env != "" {
 		server.Tags = strings.Split(env, " ")
