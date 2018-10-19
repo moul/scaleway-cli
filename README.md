@@ -7,7 +7,7 @@ Interact with Scaleway API from the command line.
 [![Packager](https://img.shields.io/badge/Packager-Install-blue.svg?style=flat)](https://packager.io/gh/scaleway/scaleway-cli/install)
 ![License](https://img.shields.io/github/license/scaleway/scaleway-cli.svg)
 ![Release](https://img.shields.io/github/release/scaleway/scaleway-cli.svg)
-[![IRC](https://www.irccloud.com/invite-svg?channel=%23scaleway&amp;hostname=irc.online.net&amp;port=6697&amp;ssl=1)](https://www.irccloud.com/invite?channel=%23scaleway&amp;hostname=irc.online.net&amp;port=6697&amp;ssl=1)
+[![IRC](https://www.irccloud.com/invite-svg?channel=%23scaleway&amp;hostname=irc.online.net&amp;port=6697&amp;ssl=1)](https://www.irccloud.com/invite?channel=%23scaleway&amp;hostname=irc.online.net&amp;port=6697&amp;ssl=1) [![GuardRails badge](https://badges.production.guardrails.io/moul/scaleway-cli.svg)](https://www.guardrails.io)
 
 ![Scaleway CLI demo](https://raw.githubusercontent.com/scaleway/scaleway-cli/master/assets/terminal-main-demo.gif)
 
